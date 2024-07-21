@@ -9,4 +9,5 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 4499
-  type: ClusterIP
+    NodePort: 32009
+  type: NodePort
